@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nisanur Bahadır</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-wrapper">
+      <img src="profil.jpg" alt="Nisanur Bahadır" class="profile-img" />
+    </div>
+
+    <h1>Nisanur Bahadır</h1>
+    <p>Yazılım Geliştirici | Bilgisayar Programcısı</p>
+
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/nisanurbahadır" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/nisanurbahadir" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#hakkimda">Hakkımda</a></li>
+        <li><a href="#egitim">Eğitim</a></li>
+        <li><a href="#isdeneyimi">İş Deneyimi</a></li>
+        <li><a href="#gonulludeneyimler">Gönüllü Deneyimler</a></li>
+        <li><a href="#projeler">Projeler</a></li>
+      </ul>
+    </nav>
+
+    <section id="hakkimda">
+      <h2>Hakkımda</h2>
+      <p>
+        Ben Nisanur Bahadır. Yazılım geliştirme ve siber güvenlik alanlarında çalışan, İstanbul'da yaşayan deneyimli bir yazılım geliştirici ve öğrenciyim. Van Yüzüncü Yıl Üniversitesi'nde eğitim alıyorum. Teknik bilgi birikimimi projeler ve paylaşımlarla sürekli geliştiriyorum.
+      </p>
+      <p>
+        LinkedIn profilimde yazılım ve siber güvenlik konularında paylaşımlar yapıyorum. 14 bin bağlantım ile geniş bir profesyonel ağım var. 
+      </p>
+    </section>
+
+    <section id="egitim">
+      <h2>Eğitim</h2>
+      <ul>
+        <li>
+          <strong>Van Yüzüncü Yıl Üniversitesi</strong> -
+          <span>Bilgisayar Programcılığı <i>(Devam Ediyor)</i></span>
+        </li>
+        <li>
+          <strong>Abdurrahman ve Nermin Bilimli MTAL</strong> -
+          <span>Ağ İşletmenliği ve Siber Güvenlik <i>(Bölüm Birinciliği)</i></span>
+        </li>
+        <li>
+          <strong>Üretken Akademi - Lise Teknoloji Girişimciliği Programı</strong> -
+          <span>Girişimcilik programı sürecinde web üzerinde çalışan bir sosyal medya platformu geliştirdim.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="isdeneyimi">
+      <h2>İş Deneyimi</h2>
+      <ul>
+        <li>
+          <strong>İstanbul Ticaret Odası</strong> -
+          <strong>Bilgi işlem Personeli</strong>
+          <p>Yazılım ve program kurulumları, güncellemeleri, bilgisayar kurulumları, ağ cihazları bakımı ve yönetimi, sanal makinaların kurulumları, yedek alma, disk yönetimi ve daha fazlası.</p>
+        </li>
+        <li>
+          <strong>Ayyıldız Halı GmbH</strong> -
+          <strong>Bilgi işlem Personeli</strong>
+          <p>Web geliştirme tarafına destek sağladım, front-end ve back-end üzerine çalıştım. Yapay zekayı etkin kullanarak web sitesi içeriği oluşturdum.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="gonulludeneyimler">
+      <h2>Gönüllü Deneyimler</h2>
+      <ul>
+        <li>
+          <strong>Ünitölye Sosyal Girişimi</strong> -
+          <strong>Web Uzmanı</strong>
+          <p>
+            Ünitölye Sosyal Girişimi'ne ait web sitesini tasarlıyor ve geliştiriyorum. 
+            <a href="https://unitolye.org" target="_blank">unitolye.org</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projeler">
+      <h2>Projeler</h2>
+      <ul>
+        <li>
+          <strong>Kişisel Web Sitesi:</strong>
+          <span>Bu portföy sitesi.</span>
+        </li>
+        <li>
+          <strong>Kütüphane Otomasyonu:</strong>
+          <span>Windows Form ile Kütüphane Otomasyonu yaptım.</span>
+        </li>
+        <li>
+          <strong>Ünitölye Web Sitesi:</strong>
+          <span>
+            Ünitölye Sosyal Girişimi'ne ait web sitesini tasarlıyor ve geliştiriyorum. 
+            <a href="https://unitolye.org" target="_blank">unitolye.org</a>
+          </span>
+        </li>
+        <li>
+          <strong>Ağ Tasarımları:</strong>
+          <span>Çok departmanlı kurumsal yapılar için ağ tasarımları yaptım.</span>
+        </li>
+         <li>
+          <strong>Web Uygulaması:</strong>
+          <span> Web üzerinde çalışan bir sosyal medya platformu geliştirdim.</span>
+        </li>
+      </ul>
+    </section>
+       <br><strong>© 2025 Nisanur Bahadır.<strong>
+  </div>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', event => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          const targetId = href.slice(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            const h2 = targetSection.querySelector('h2');
+            if (h2) {
+              h2.classList.add('animate-scale');
+              setTimeout(() => {
+                h2.classList.remove('animate-scale');
+              }, 300);
+            }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
