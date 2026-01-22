@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İletişim - Nisanur Bahadır</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+  <div class="light-overlay"></div>
+
+  <div class="container">
+    <h1>Benimle İletişime Geçin</h1>
+    <div class="google-form-container">
+      <div id="form-placeholder">Form yükleniyor...</div>
+      <iframe id="gform" 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfMkhS_pWdFLPSjWr64vnZ6dbniG0OimcYLfqySbAKO2DYSrA/viewform?embedded=true" 
+        width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">
+      </iframe>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function() {
+      const loader = document.getElementById('form-placeholder');
+      const iframe = document.getElementById('gform');
+      iframe.style.display = "block";
+      loader.style.display = "none";
+    });
+  </script>
+</body>
+</html>
+
