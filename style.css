@@ -316,3 +316,56 @@ iframe#gform {
     margin-left: 10px;
   }
 }
+
+/* PROJECTS PAGE SPECIFIC STYLES */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(106, 13, 173, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff32d6;
+  box-shadow: 0 10px 20px rgba(106, 13, 173, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.project-card h3 {
+  color: #ff32d6;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.project-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: rgba(106, 13, 173, 0.4);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid #6a0dad;
+}
+
